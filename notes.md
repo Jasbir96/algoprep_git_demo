@@ -29,7 +29,7 @@ git config --global user.email "youremail@example.com"
 ## Terms
 **Repository (Repo):**
 A storage location for your project, including all the files and the entire history of their changes.
-skadgjbnfsjkbnvdsnbvkarkgnkjrngknre
+
 **staging area** -> tracked changes
 **working directory** -> untracked changes
 
@@ -39,3 +39,6 @@ skadgjbnfsjkbnvdsnbvkarkgnkjrngknre
 * `.gitignore` : this the file where you can put the files and folder name which you don't want to be tracked
 * `git add .` -> to send all the files current snapshot to staging area 
 * `git status `-> differenece between staging and working directory
+* `git commit -m "commit message" ` : A snapshot of changes made to the repository. Each commit has a unique ID and a message describing the changes.
+* `git log` : list of commits 
+
